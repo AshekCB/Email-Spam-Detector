@@ -1,6 +1,6 @@
 import pandas as pd
 
-data=pd.read_csv("https://github.com/AshekCB/Email-Spam-Detector/blob/main/email%20spam%20detection.csv")
+data=pd.read_csv("https://github.com/AshekCB/Email-Spam-Detector/raw/27cc3b5d0eaa1ea314847f8408f4a0690db3105f/email%20spam%20detection.csv")
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
